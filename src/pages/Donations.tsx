@@ -31,7 +31,7 @@ const missionAchievements = [
   { icon: '🎓', stat: '150+', label: 'Scholarship Recipients', desc: 'Students from all 47 Kenyan counties supported through our bursary programme' },
   { icon: '🏥', stat: '15+', label: 'Rural Health Facilities', desc: 'Clinics across Kenya now staffed primarily by Blue West graduates through our rural placement commitment' },
   { icon: '👶', stat: '200+', label: 'Births Attended', desc: 'Deliveries attended by Blue West-trained midwives in Kenya\'s remote areas, significantly reducing maternal mortality' },
-  { icon: '💉', stat: '500+', label: 'Patients Served Annually', desc: 'People receiving healthcare from Blue West alumni working in underserved counties — Turkana, Marsabit, Samburu, Mandera' },
+  { icon: '💉', stat: '500+', label: 'Patients Served Annually', desc: 'People receiving healthcare from Blue West alumni working in underserved counties — Kilifi, Turkana, Marsabit, Samburu, Mandera' },
   { icon: '🌿', stat: '10+', label: 'Community Clinics Run', desc: 'Free outreach clinics held each year by our students and staff in rural communities around Eldoret' },
   { icon: '📚', stat: '87%', label: 'Rural Graduate Return Rate', desc: 'Of scholarship graduates who commit to our Rural Service Pledge return to serve in their home county for at least 3 years' },
 ]
@@ -128,7 +128,7 @@ export default function Donations() {
               <div className="divider" />
               <p style={{ fontSize: '0.92rem', color: 'var(--muted)', lineHeight: 1.9, marginBottom: '1.25rem' }}>Kenya has fewer than 1 doctor per 5,000 people — far below the WHO-recommended ratio. In rural counties like Turkana, Mandera, Wajir, and Marsabit, that ratio is as low as 1 per 50,000. This is not a medical crisis — it is an educational crisis.</p>
               <p style={{ fontSize: '0.92rem', color: 'var(--muted)', lineHeight: 1.9, marginBottom: '1.25rem' }}>The biggest barrier between talented rural Kenyans and medical careers is not ability — it is money. Most rural families cannot afford the KSh 280,000 annual tuition for an MBChB, let alone accommodation, books, and living costs over six years.</p>
-              <p style={{ fontSize: '0.92rem', color: 'var(--muted)', lineHeight: 1.9, marginBottom: '2rem' }}>Blue West Medical Training College's founder, Dr. James Waweru, grew up in a rural community where he watched people die from curable conditions. He built this college on a simple belief: <em style={{ color: 'var(--gold-light)' }}>that the best healer for a community is someone who comes from that community.</em></p>
+              <p style={{ fontSize: '0.92rem', color: 'var(--muted)', lineHeight: 1.9, marginBottom: '2rem' }}>Blue West Medical Training College's founder, Dr. William Gitenge, grew up in a rural community where he watched people die from curable conditions. He built this college on a simple belief: <em style={{ color: 'var(--gold-light)' }}>that the best healer for a community is someone who comes from that community.</em></p>
               <p style={{ fontSize: '0.92rem', color: 'var(--muted)', lineHeight: 1.9, marginBottom: '2rem' }}>Your donation sustains that belief. Every shilling given directly funds scholarships, community clinics, rural placements, and the training infrastructure that turns rural youth into Kenya's healthcare heroes.</p>
               <Link to="/about/mission" className="btn"><span>Read Our Full Mission Statement</span></Link>
             </div>
