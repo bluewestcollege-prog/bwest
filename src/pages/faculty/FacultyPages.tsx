@@ -74,12 +74,60 @@ export function FacultyDirectory() {
 
 export function ResearchCentres() {
   const centres = [
-    { icon: '🧬', name: 'Centre for Infectious Disease Research', lead: 'Prof. James Kariuki', focus: 'HIV/AIDS, Tuberculosis, Malaria, Emerging Pathogens', grant: 'KSh 45M (Wellcome Trust 2024)', pubs: '320+ since 2005', desc: 'Our flagship research centre focuses on infectious diseases that disproportionately affect East Africa. We collaborate with KEMRI, CDC Kenya, and WHO to develop diagnostics, treatments, and vaccines adapted to African disease contexts.' },
-    { icon: '👶', name: 'Maternal & Child Health Institute', lead: 'Dr. Robert Chesang', focus: 'Maternal mortality, Neonatal care, Child nutrition', grant: 'KSh 22M (USAID 2023)', pubs: '180+ since 2008', desc: 'Dedicated to reducing Kenya\'s maternal and infant mortality rates — particularly in rural areas where rates remain 3 times higher than urban settings. Research informs national obstetric protocols.' },
-    { icon: '🤖', name: 'AI & Digital Health Lab', lead: 'Dr. Emmanuel Otieno', focus: 'Machine learning diagnostics, Digital health, Health informatics', grant: 'KSh 18M (Google Kenya 2024)', pubs: '95+ since 2018', desc: 'East Africa\'s most active academic AI-in-healthcare lab. Developing AI diagnostic tools for resource-limited settings — including TB detection from chest X-rays and malaria diagnosis from blood smear images.' },
-    { icon: '🎗️', name: 'Oncology Research Centre', lead: 'Prof. Grace Wambui', focus: 'Cancer prevention, Palliative care, Cervical cancer', grant: 'KSh 30M (African Cancer Fund 2023)', pubs: '145+ since 2010', desc: 'Cancer is Kenya\'s third leading cause of death. Our centre researches cancer prevention, early diagnosis, and affordable treatment options — with a focus on cervical, breast, oesophageal, and prostate cancers common in Kenya.' },
-    { icon: '🌿', name: 'One Health Research Unit', lead: 'Prof. Amina Hassan', focus: 'Zoonotic diseases, AMR, Environmental health', grant: 'KSh 25M (FAO Kenya 2024)', pubs: '78+ since 2019', desc: 'One of the few dedicated One Health research units in Kenya, studying the intersections between human health, animal health, and environment — critical for preventing the next pandemic in East Africa.' },
-    { icon: '🧠', name: 'Mental Health & Psychosocial Research Centre', lead: 'Dr. Maria Njoro', focus: 'Community mental health, Trauma, Substance abuse', grant: 'KSh 12M (WHO Kenya 2023)', pubs: '55+ since 2015', desc: 'Addressing Kenya\'s silent mental health crisis through community-based research, treatment model development, and advocacy for increased mental health investment in the national health budget.' },
+    {
+      icon: '🔬️',
+      name: 'Centre for Infectious Disease Research',
+      lead: 'Prof. James Kariuki',
+      focus: 'HIV/AIDS, Tuberculosis, Malaria, Emerging Pathogens',
+      grant: '--',
+      pubs: '--',
+      desc: 'Our flagship research centre focuses on infectious diseases that disproportionately affect East Africa.'
+    },
+    {
+      icon: '👶',
+      name: 'Maternal & Child Health Institute',
+      lead: 'Dr. Robert Chesang',
+      focus: 'Maternal mortality, Neonatal care, Child nutrition',
+      grant: '--',
+      pubs: '--',
+      desc: 'Dedicated to reducing Kenya\'s maternal and infant mortality rates — particularly in rural areas where rates remain 3 times higher than urban settings. Research informs national obstetric protocols.'
+    },
+    {
+      icon: '🤖',
+      name: 'AI & Digital Health Lab',
+      lead: 'Dr. Emmanuel Otieno',
+      focus: 'Machine learning diagnostics, Digital health, Health informatics',
+      grant: '--',
+      pubs: '--',
+      desc: 'East Africa\'s most active academic AI-in-healthcare lab. Developing AI diagnostic tools for resource-limited settings.'
+    },
+    {
+      icon: '🎗️',
+      name: 'Oncology Research Centre',
+      lead: 'Prof. Grace Wambui',
+      focus: 'Cancer prevention, Palliative care, Cervical cancer',
+      grant: '--',
+      pubs: '--',
+      desc: 'Cancer is Kenya\'s third leading cause of death. Our centre researches cancer prevention, early diagnosis, and affordable treatment options.'
+    },
+    {
+      icon: '🌿',
+      name: 'One Health Research Unit',
+      lead: 'Prof. Amina Hassan',
+      focus: 'Zoonotic diseases, AMR, Environmental health',
+      grant: '--',
+      pubs: '--',
+      desc: 'One of the few dedicated One Health research units in Kenya, studying the intersections between human health, animal health, and environment.'
+    },
+    {
+      icon: '🧠',
+      name: 'Mental Health & Psychosocial Research Centre',
+      lead: 'Dr. Maria Njoro',
+      focus: 'Community mental health, Trauma, Substance abuse',
+      grant: '--',
+      pubs: '--',
+      desc: 'Addressing Kenya\'s silent mental health crisis through community-based research, treatment model development, and advocacy for increased mental health investment in the national health budget.'
+    }
   ]
 
   return (

@@ -5,7 +5,7 @@ export default function NewCourses() {
     {
       icon: '🤖', badge: 'PIONEERING', name: 'BSc Health Informatics & Artificial Intelligence in Medicine', code: 'HIAM', level: 'Undergraduate · 4 Years', intake: 2025,
       desc: 'The first of its kind in Kenya and one of very few in East Africa. This programme trains the next generation of healthcare professionals who can harness artificial intelligence, machine learning, and data science to transform clinical diagnosis, health system management, and patient outcomes.',
-      highlights: ['AI-Assisted Diagnostics training using real clinical datasets', 'Electronic Health Records (EHR) systems management', 'Natural Language Processing for clinical text analysis', 'Digital health entrepreneurship module', 'Partnership with Safaricom M-Health initiative', 'Internship pathways at Nairobi-based health tech startups'],
+      highlights: ['AI-Assisted Diagnostics training using real clinical datasets', 'Electronic Health Records (EHR) systems management', 'Natural Language Processing for clinical text analysis', 'Digital health entrepreneurship module', 'Partnership with Safaricom M-Health initiative', 'Internship pathways at Malindi-based health tech startups'],
       why: 'Kenya\'s healthcare system generates millions of data points daily but lacks professionals who can analyse and act on them. This programme fills that critical gap.'
     },
     {

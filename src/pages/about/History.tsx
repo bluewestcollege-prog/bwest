@@ -6,13 +6,13 @@ export default function History() {
       year: '2020',
       title: 'The Seed of an Idea',
       icon: '💡',
-      desc: 'After years of working as a physician in Kilifi County and witnessing the chronic shortage of trained health workers, Dr. Albert Mwenda begins conversations with community leaders, educators, and county health officials about the possibility of a dedicated medical training institution on Kenya\'s Coast.' ,
+      desc: 'After years of working as a physician in Kilifi County and witnessing the chronic shortage of trained health workers, Dr. William Gitenge begins conversations with community leaders, educators, and county health officials about the possibility of a dedicated medical training institution on Kenya\'s Coast.' ,
     },
     {
       year: '2022',
       title: 'Feasibility & Community Consultation',
       icon: '📋',
-      desc: 'A 12-month feasibility study — covering population health needs, funding modelling, land acquisition, and stakeholder engagement — is commissioned. Overwhelmingly, coastal communities affirm the urgent need: Kilifi County has one of Kenya\'s lowest doctor-to-population ratios at 1:8,400.',
+      desc: 'A 12-month feasibility study — covering population health needs, funding modelling, land acquisition, and stakeholder engagement — is commissioned. Overwhelmingly, coastal communities affirm the urgent need: Kilifi County has one of Kenya\'s lowest doctor-to-population ratios at 1:17,000.',
     },
     {
       year: '2023',
@@ -24,56 +24,27 @@ export default function History() {
       year: '2023',
       title: 'Land Secured in Gongoni',
       icon: '🌿',
-      desc: 'A 12-acre parcel of land in Gongoni, just north of Malindi town, is acquired through a public-private partnership with Kilifi County Government. Site surveys, environmental impact assessments, and architectural planning begin — a coastal campus designed to harmonise with Malindi\'s natural beauty.',
+      desc: 'A parcel of land in Gongoni, just north of Malindi town, is acquired through a public-private partnership with Kilifi County Government. Site surveys, environmental impact assessments, and architectural planning begin — a coastal campus designed to harmonise with Malindi\'s natural beauty.',
     },
     {
       year: '2024',
-      title: 'KMPDC Provisional Accreditation',
-      icon: '✅',
-      desc: 'Blue West receives provisional accreditation from the Kenya Medical Practitioners & Dentists Council — a landmark achievement. The Commission for University Education grants Letter of Interim Authority to offer health sciences programmes. Construction of Blocks A and B commences.',
-    },
-    {
-      year: '2024',
-      title: 'Coast General Hospital Partnership',
+      title: 'Coastal Partners Secured',
       icon: '🏥',
-      desc: 'A Memorandum of Understanding is signed with Coast General Teaching & Referral Hospital in Mombasa — Blue West\'s primary clinical training partner. Additionally, letters of support are received from Kilifi County Hospital, Malindi Sub-County Hospital, and Aga Khan Hospital Mombasa.',
-    },
-    {
-      year: '2024',
-      title: 'Inaugural Scholarship Fund',
-      icon: '🎓',
-      desc: 'The Blue West Access Fund is established, seeded with KSh 15M from founding donors and diaspora supporters. The fund\'s goal: ensure no student from coastal fishing, farming, or nomadic communities is excluded from medical training purely due to financial hardship.',
-    },
-    {
-      year: '2025',
-      title: 'Campus Construction Completed',
-      icon: '🏗️',
-      desc: 'Phase 1 construction completes on schedule: two academic blocks, a 250-seat anatomy and simulation suite, a digital resource centre, student residences for 300 students, and the Makena Medical Library — named after the founding patron\'s late mother, a nurse who served Kilifi for 40 years.',
+      desc: 'A Memorandum of Understanding is signed with Coastal hospitals in Mombasa and the surrounding region.',
     },
     {
       year: '2025',
       title: 'Faculty Recruited',
       icon: '👨‍🏫',
-      desc: 'An internationally competitive recruitment process brings 62 academic staff to Blue West — specialists, lecturers, and clinical tutors drawn from Kenyan universities, NHS in the UK, and East African teaching hospitals. The Faculty Senate holds its inaugural meeting in October 2025.',
+      desc: 'A competitive recruitment process brings academic staff to Blue West — specialists, lecturers, and clinical tutors drawn across Kenyan universities',
     },
     {
       year: '2026',
       title: 'Doors Open — Blue West Is Born',
       icon: '🎉',
-      desc: 'Blue West Medical Training College officially opens its doors in March 2026. The inaugural cohort of 450 students from 24 Kenyan counties and 3 East African nations begin orientation week. The Governor of Kilifi County, the Cabinet Secretary for Health, and the KMPDC Registrar officiate the opening ceremony.',
+      desc: 'Blue West Medical Training College officially opens its doors in March 2026.',
     },
-    {
-      year: '2026',
-      title: 'Simulation Centre Inaugurated',
-      icon: '🔬',
-      desc: 'Block A\'s state-of-the-art Simulation & Clinical Skills Centre is inaugurated — the most advanced simulation facility on the Kenyan Coast. Features high-fidelity patient simulators, a mock emergency department, operating theatre simulation suite, and a birthing simulation lab.',
-    },
-    {
-      year: '2026',
-      title: 'Research Goes Live',
-      icon: '📄',
-      desc: 'Blue West\'s research programme launches with eight peer-reviewed submissions in the first six months — spanning malaria epidemiology, AI-assisted diagnostics, maternal mortality, and One Health research. The college is formally registered with NACOSTI as a research institution.',
-    },
+
   ]
 
   return (
@@ -98,9 +69,8 @@ export default function History() {
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: 0 }} className="hist-stats-resp">
             {[
               { num: '2026', label: 'Year Founded' },
-              { num: '450+', label: 'Inaugural Students' },
-              { num: '62', label: 'Academic Staff' },
-              { num: '4', label: 'Hospital Partners' },
+              { num: 'Acquired', label: 'Academic Staff' },
+              { num: 'Partnered', label: 'Hospital Partners' },
             ].map((s, i, arr) => (
               <div key={s.label} style={{ textAlign: 'center', padding: '1.5rem', borderRight: i < arr.length - 1 ? '1px solid rgba(255,255,255,0.08)' : 'none' }}>
                 <div style={{ fontFamily: 'var(--font-display)', fontSize: '3rem', fontWeight: 300, color: 'var(--white)', lineHeight: 1 }}>{s.num}</div>
@@ -171,13 +141,13 @@ export default function History() {
               <h2 className="section-title">A Vision Born <em>From Necessity</em></h2>
               <div className="divider" />
               <p style={{ fontSize: '0.88rem', color: 'var(--muted)', lineHeight: 1.9, marginBottom: '1.25rem' }}>
-                Dr. Albert Mwenda spent over a decade as a general physician in Kilifi County, serving communities from Malindi to Watamu, Gongoni to Mambrui. He watched mothers die in childbirth for want of a skilled attendant. He watched fishermen lose limbs to untreated injuries. He watched children succumb to malaria because the nearest clinic was half a day's walk away — and understaffed when you got there.
+                Dr. William Gitenge spent over a decade as a general educator in Kilifi County, serving communities from Malindi to Watamu, Gongoni to Mambrui. He watched mothers die in childbirth for want of a skilled attendant. He watched fishermen lose limbs to untreated injuries. He watched children succumb to malaria because the nearest clinic was half a day's walk away — and understaffed when you got there.
               </p>
               <p style={{ fontSize: '0.88rem', color: 'var(--muted)', lineHeight: 1.9, marginBottom: '1.25rem' }}>
-                Kenya's Coast region — despite its tourism wealth — has long been medically underserved. Kilifi County's doctor-to-population ratio is among the lowest in the country. Young people with the talent and passion to serve in healthcare have had to leave home entirely to train in Nairobi or Eldoret, and many never came back.
+                Kenya's Coast region — despite its tourism wealth — has long been medically underserved. Kilifi County's doctor-to-population ratio is among the lowest in the country. Young people with the talent and passion to serve in healthcare have had to leave home entirely to train in Nairobi or other cities, and many never came back.
               </p>
               <p style={{ fontSize: '0.88rem', color: 'var(--muted)', lineHeight: 1.9, marginBottom: '2rem' }}>
-                Dr. Mwenda decided that had to change. He gathered community elders, county officials, diaspora supporters, and fellow clinicians around a simple idea: <em style={{ color: 'var(--gold-light)' }}>bring the training to the people who need it most</em>. Blue West Medical Training College is that idea — made real, made permanent, made theirs.
+                Dr. William decided that had to change. He gathered community elders, county officials, diaspora supporters, and fellow clinicians around a simple idea: <em style={{ color: 'var(--gold-light)' }}>bring the training to the people who need it most</em>. Blue West Medical Training College is that idea — made real, made permanent, made theirs.
               </p>
               <div style={{ display: 'flex', gap: '1rem', flexWrap: 'wrap' }}>
                 <Link to="/about/leadership" className="btn"><span>Meet Our Leadership</span></Link>
@@ -201,8 +171,8 @@ export default function History() {
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(260px, 1fr))', gap: '1.5rem' }}>
             {[
               { year: '2027', icon: '🎓', title: 'First Graduating Class', desc: 'Our diploma and certificate students complete their programmes — the first Blue West graduates take their place in Kenya\'s health workforce, many serving Kilifi and the Coast region.' },
-              { year: '2028', icon: '🏗️', title: 'Phase 2 Campus Expansion', desc: 'A KSh 280M Phase 2 build: sports facilities, expanded student residences (capacity 800), a specialist pharmacy research lab, and an outpatient teaching clinic open to the Gongoni community.' },
-              { year: '2029', icon: '🌍', title: 'Regional Research Hub', desc: 'Blue West designated as the East Africa Coastal Health Research Centre, attracting WHO, NIH, and Wellcome Trust-funded researchers studying ocean-related diseases, tropical health, and coastal epidemiology.' },
+              { year: '2028', icon: '🏗️', title: 'Infrastructure Development', desc: 'Infrastructure development: sports facilities, expanded student residences, a specialist pharmacy research lab, and an outpatient teaching clinic open to the Gongoni community.' },
+              { year: '2029', icon: '🌍', title: 'Research Hub', desc: 'Blue West designated as the East Africa Coastal Health Research Centre, attracting WHO, NIH, and Wellcome Trust-funded researchers studying ocean-related diseases, tropical health, and coastal epidemiology.' },
               { year: '2030', icon: '🏆', title: '1,000 Graduates in Service', desc: 'Target: 1,000 Blue West alumni working in Kenya\'s health system — with at least 60% serving in the Coast region\'s public hospitals, clinics, and community health programmes.' },
             ].map(f => (
               <div key={f.year} style={{ border: '1px solid var(--border-blue)', padding: '2rem', position: 'relative', overflow: 'hidden', transition: 'border-color 0.3s, transform 0.3s' }}
